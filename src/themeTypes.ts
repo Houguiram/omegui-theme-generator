@@ -1,5 +1,4 @@
 export type InputTheme = {
-  // colorScheme: 'light' | 'dark'
   primary: string;
   primaryContent?: string;
   secondary: string;

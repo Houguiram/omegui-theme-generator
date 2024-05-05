@@ -33,7 +33,7 @@ export const config = createTamagui({
     ...configBase.themes,
     ...omeguiThemeGenerator({
       light: "nord",
-      dark: "retro",
+      dark: "dracula",
     }),
   },
 });
@@ -75,11 +75,12 @@ As well as the following keys for stronger shades:
 
 ### Preset themes
 
-The following preset themes are available (dark themes coming soon):
+The following preset themes are available (more themes coming soon):
 
 - `emerald`
 - `retro`
 - `nord`
+- `dracula`
 - `cyberpunk`
 - `pastel`
 - `autumn`
@@ -128,7 +129,6 @@ type InputTheme = {
 
 ## Upcoming
 
-- Support for dark themes
 - Wrapper for Tamagui components to add color variants (e.g. primary, secondary, etc.)
 - Support for theming border radius, shadows, animations and other properties (aiming for parity with daisyUI themes)
 - A visual theme editor to preview Tamagui components with your theme

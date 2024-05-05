@@ -80,4 +80,16 @@ export const presetThemes = {
     warning: "#E97F14",
     error: "oklch(53.07% 0.241 24.16)",
   },
+  dracula: {
+    primary: "#ff79c6",
+    secondary: "#bd93f9",
+    accent: "#ffb86c",
+    neutral: "#414558",
+    background: "#282a36",
+    foreground: "#f8f8f2",
+    info: "#8be9fd",
+    success: "#50fa7b",
+    warning: "#f1fa8c",
+    error: "#ff5555",
+  },
 };

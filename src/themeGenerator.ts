@@ -2,9 +2,12 @@ import { presetThemes } from "./presetThemes";
 import { InputTheme } from "./themeTypes";
 import { partialThemeToFullTheme, themeColorsToHexTheme } from "./themeUtils";
 
-const inputThemeToTamaguiTheme = (inputTheme: InputTheme) => {
+const inputThemeToTamaguiTheme = (
+  inputTheme: InputTheme,
+  themeType: "light" | "dark"
+) => {
   const convertedFullTheme = themeColorsToHexTheme(
-    partialThemeToFullTheme(inputTheme)
+    partialThemeToFullTheme(inputTheme, themeType)
   );
   return {
     ...convertedFullTheme,
@@ -45,7 +48,7 @@ export const omeguiThemeGenerator = ({
   const lightTheme = typeof light === "string" ? presetThemes[light] : light;
   const darkTheme = typeof dark === "string" ? presetThemes[dark] : dark;
   return {
-    light: inputThemeToTamaguiTheme(lightTheme),
-    dark: inputThemeToTamaguiTheme(darkTheme),
+    light: inputThemeToTamaguiTheme(lightTheme, "light"),
+    dark: inputThemeToTamaguiTheme(darkTheme, "dark"),
   };
 };

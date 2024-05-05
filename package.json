@@ -15,16 +15,19 @@
     "bun"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "homepage": "TODO",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+    "url": "TODO"
   },
-  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "bugs": "TODO",
+  "author": "Marin Godechot <marin.godechot@gmail.com>",
   "devDependencies": {
     "bun-plugin-dts": "^0.2.1",
     "@types/bun": "^1.0.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "colorjs.io": "^0.5.0"
   }
 }

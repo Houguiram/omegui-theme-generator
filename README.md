@@ -1,25 +1,21 @@
-# bun starter
+# Omegui theme generator
 
-## Getting Started
+## Disclaimer
 
-Click the [Use this template](https://github.com/wobsoriano/bun-lib-starter/generate) button to create a new repository with the contents starter.
+This tool is still in early development and may not work as expected. Please report any issues you encounter.
 
-OR
+## Description
 
-Run `bun create wobsoriano/bun-lib-starter ./my-lib`.
+Omegui is a set of tools to make Tamagui easier to set up and customize.
 
-## Setup
+This is the theme generator, which allows you to create a theme for Tamagui's component library from a minimal set of colors. You can also use preset themes to get started quickly.
 
-```bash
-# install dependencies
-bun install
+## Upcoming
 
-# test the app
-bun test
-
-# build the app, available under dist
-bun run build
-```
+- Support for dark themes
+- Better documentation
+- Wrapper for Tamagui components to add color variants (e.g. primary, secondary, etc.)
+- Support for theming border radius, shadows, animations and other properties (aiming for parity with daisyUI themes)
 
 ## License
 

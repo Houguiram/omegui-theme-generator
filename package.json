@@ -12,15 +12,15 @@
     "dist"
   ],
   "keywords": [
-    "bun"
+    "tamagui"
   ],
   "license": "MIT",
-  "homepage": "TODO",
+  "homepage": "https://github.com/Houguiram/omegui-theme-generator#README.md",
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "git+https://github.com/Houguiram/omegui-theme-generator.git"
   },
-  "bugs": "TODO",
+  "bugs": "https://github.com/Houguiram/omegui-theme-generator/issues",
   "author": "Marin Godechot <marin.godechot@gmail.com>",
   "devDependencies": {
     "bun-plugin-dts": "^0.2.1",

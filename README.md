@@ -86,13 +86,15 @@ The following preset themes are available (dark themes coming soon):
 
 ### Custom themes
 
+You can also create your own custom theme by passing an object with the colors of your theme to the theme generator. Most color formats are supported, including hex, rgb, hsl, and oklch.
+
 Your custom theme can be as short as this:
 
 ```ts
 {
   primary: "#ff0000",
-  secondary: "#00ff00",
-  accent: "#0000ff",
+  secondary: "oklch(83.33% 0.184 204.72)",
+  accent: "rgb(0, 255, 0)",
   neutral: "#ffffff",
 }
 ```
@@ -131,6 +133,7 @@ type InputTheme = {
 - Support for theming border radius, shadows, animations and other properties (aiming for parity with daisyUI themes)
 - A visual theme editor to preview Tamagui components with your theme
 - Better documentation
+- Bundle size optimizations
 
 ## License
 

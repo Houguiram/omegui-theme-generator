@@ -33,7 +33,7 @@ describe("themeUtils", () => {
         secondary: "#00FF00",
         accent: "#0000FF",
       };
-      const fullTheme = partialThemeToFullTheme(partialTheme);
+      const fullTheme = partialThemeToFullTheme(partialTheme, "light");
       expect(fullTheme).toEqual({
         accent: "#0000FF",
         accent2: "oklch(35.201% 0.31321 264.05)",

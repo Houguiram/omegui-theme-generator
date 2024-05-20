@@ -1,19 +1,16 @@
 {
   "name": "omegui-theme-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "description": "",
   "scripts": {
     "build": "bun run build.mjs",
     "prepublishOnly": "bun run build"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "tamagui"
-  ],
+  "files": ["dist"],
+  "keywords": ["tamagui"],
   "license": "MIT",
   "homepage": "https://github.com/Houguiram/omegui-theme-generator#README.md",
   "repository": {
